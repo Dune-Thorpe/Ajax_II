@@ -14,7 +14,7 @@ if (in_array(strtoupper($name),$userNames))
 else if (trim($name) == '')
     echo 'Stranger, please tell me your name!';
 else
-    echo htmlentities($name) . 'I don\'t know you!';
+    echo htmlentities($name) . ' I don\'t know you!';
 // close the <response> element
 echo '</response>';
 ?>

@@ -4,7 +4,7 @@ const xmlHttp = createXmlHttpRequestObject();
 // retrieves the XMLHttpRequest object
 function createXmlHttpRequestObject() {
     // stores the reference to the XMLHttpRequest object
-    const xmlHttp;
+    let xmlHttp;
     try {
         xmlHttp = new XMLHttpRequest();
     }
@@ -22,9 +22,9 @@ function process() {
     // proceed on if the xmlHttp object isn't busy
     if (xmlHttp.readyState == 4 || xmlHttp.readyState == 0) {
         // retrieve the nae typed by the user on the form
-        let name = encodeURIComponent(documenr.getElementById("myName").value);
+        let name = encodeURIComponent(document.getElementById("myName").value);
         // execute the quickstart.php page from the server
-        XMLHttpRequestUpload.open("GET", "quickstart.php?name=" + name,true);
+        xmlHttp.open("GET", "quickstart.php?name=" + name,true);
         // define the method to handle server responses
         xmlHttp.onreadystatechange = handleServerResponse;
         // make the server request
