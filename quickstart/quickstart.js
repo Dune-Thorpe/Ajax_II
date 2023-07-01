@@ -41,11 +41,11 @@ function handleServerResponse() {
         // status of 200 indicates the transaction completed successfully
         if (xmlHttp.status == 200) {
             // extract the XML retrieved from the server
-            xmlResponse = xmlHttp.responseXML;
+           let xmlResponse = xmlHttp.responseXML;
             // obtain the document element (the root element) of the XML structure
-            xmlDocumentElement = xmlResponse.documentElement;
+            let xmlDocumentElement = xmlResponse.documentElement;
             // get the text messega, which is the first child of the document element
-            helloMessage = xmlDocumentElement.firstChild.data;
+            let helloMessage = xmlDocumentElement.firstChild.data;
             // display the data received froma the server
             document.getElementById("divMessage").innerHTML = '<i>' + helloMessage + '</i>';
             // restart sequence
