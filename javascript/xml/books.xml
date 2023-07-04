@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <books>
+        <book>
+            <title>
+                AJAX and PHP: Building Modern Web Applications, 2nd Edition
+            </title>
+            <author>
+                Bogdan Brinzarea-lamandi
+            </author>
+            <isbn>
+                978-1904817726
+            </isbn>
+        </book>
+         <book>
+            <title>
+                Beginning PHP and MySQL E-Commerce, 2nd Edition
+            </title>
+            <author>
+                Cristian Darie
+            </author>
+            <isbn>
+                978-1590598641
+            </isbn>
+        </book>
+         <book>
+            <title>
+                Professional SearchEngine Optimization with PHP
+            </title>
+            <author>
+                Jaimie Sirovich
+            </author>
+            <isbn>
+                978-0470100929
+            </isbn>
+        </book>
+    </books>
+</response>
