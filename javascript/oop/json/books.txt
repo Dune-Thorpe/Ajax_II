@@ -1,0 +1,9 @@
+{
+    books:
+    [
+        {title:"AJAX and PHP: Building Modern Web Applications, 2nd Edition",author:"Bogdan Brinzarea-lamandi",
+        isbn:"978-190481776"},
+        {title:"Begining PHP and MySQL E-Commerce, 2nd Edition",author:"Cristian Darie",isbn:"978-1590598641"},
+        {title:"Professional Search Engine Optimaization with PHP", author:"Jaimie Sirovich",isbn:"978-0470100929"}
+    ]
+}
